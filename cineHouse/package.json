@@ -1,0 +1,14 @@
+{
+  "name": "cinehouse",
+  "version": "1.0.0",
+  "description": "exercicio1",
+  "main": "cinema.js",
+  "scripts": {
+    "test": "cinema"
+  },
+  "author": "Guilherme Venturim",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
