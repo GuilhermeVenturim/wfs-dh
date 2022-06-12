@@ -1,4 +1,4 @@
-function somar(numA, numB){
-    let resultado = numA + numB
+function subtrair(numA, numB){
+    let resultado = numA - numB
     return resultado
 }
