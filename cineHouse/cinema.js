@@ -25,14 +25,14 @@ let catalogo =  [   {
         lancamento: 2003,
         emCartaz: false
     },
- /*   {
+    {
         codigo: 04,
         nome: 'Doutor Estranho no Multiverso da Loucura',
         duracao: 2,
         atores: 'Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor',
         lancamento: 2022,
         emCartaz: true
-    }*/
+    }
 ]
 function AdicionarFilme(codigo, nome, duracao, atores, lancamento, emCartaz){
         this.codigo     = codigo
@@ -47,15 +47,22 @@ let newFilme = new AdicionarFilme(04, 'Doutor Estranho no Multiverso da Loucura'
 
 
 function buscarFilme(index){
-        
-        return index
+        let resultado = catalogo[index]
+        return resultado
 }
-function alterarStatusEmCartaz(){
-        
+
+function alterarStatusEmCartaz(index, nomeFilme){
+        //let statusEmCartazAlterado = []
+        if(catalogo[index].emCartaz == false){
+            return `O Filme ${catalogo[index].nome} está em cartaz?  ${catalogo[index].emCartaz = true}`
+        }else{
+            return `O Filme ${catalogo[index].nome} está em cartaz?  ${catalogo[index].emCartaz = false}`
+        }
+        //catalogo[index].emCartaz != true
 }
 
 //console.log(catalogo)
-
+//console.log(newFilme)
 //console.log(catalogo, newFilme)
-console.log(buscarFilme(2))
-console.log()
+//console.log(buscarFilme(2))
+console.log(alterarStatusEmCartaz(3))
