@@ -93,13 +93,13 @@ switch(dia){
 }
 
 //Callbacks
-/*
+
 function adicionaHttp(url) {
     return `http://${url};
 }
 
 function adicionaHttps(url) {
-    return `https://${url};
+    return `https://${url}`;
 }
 
 function adicionaSmtp(url) {
@@ -108,7 +108,7 @@ function adicionaSmtp(url) {
 
 // Callback tem o proposito de reaproveitar código.
 
-/*function retornarUrlsModificadas(Urls, operacaoCallback) {
+function retornarUrlsModificadas(Urls, operacaoCallback) {
 
     listaDeUrls = [];
 
@@ -118,7 +118,7 @@ function adicionaSmtp(url) {
 
     return listaDeUrls;
 }
-/*
+
 console.log(retornarUrlsModificadas(['google.com', 'facebook.com', 'globo.com'], adicionaHttp));
 console.log(retornarUrlsModificadas(['google.com', 'facebook.com', 'globo.com'], adicionaHttps));
 console.log(retornarUrlsModificadas(['google.com', 'facebook.com', 'globo.com'], adicionaSmtp));
@@ -129,7 +129,7 @@ console.log(retornarUrlsModificadas(['google.com', 'facebook.com', 'globo.com'],
 }));
 
 console.log(retornarUrlsModificadas(['google.com', 'facebook.com', 'globo.com'], url => `http://$(url)`));
-*/
+
 
 function papagaio(texto){
     for(let i = 1; i <= 5; i++){
@@ -171,5 +171,4 @@ function processar(array,adicionarHttp){
     return resultadoFunction
 }
 console.log(processar(["www.google.com","www.yahoo.com"], adicionarHttp))
-
 
