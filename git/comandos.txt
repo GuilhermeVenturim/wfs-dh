@@ -1,0 +1,28 @@
+*** Comando já utilizados até aqui ***
+
+git init                                            //iniciar git no repositório local.
+git status                                          //retorna o status atual dos arquivos no repositório.
+git add . or nomeDoArquivo                          //adiciona um ou todos os arquivos a área de commit.
+git commit -m "mensagem"                            //commita com mensagem e prepara os arquivos para subir.
+git config --global user.name "nomeDoUsuario"       //configura nome de usuário usado em todos os arquivos do projeto.
+git config --global user.email "emailDoUsuario"     //configura email do usuário usado em todos os arquivos do projeto.
+git log                                             //exibe histórico de commits.
+git push                                            //empurra o conteúdo local para o repositório remoto.
+git pull                                            //atualiza repositório local usando o repositório remoto.
+git rm nomeDoArquivo                                //remove arquivo.
+git rm -r nomeDaPasta                               //remove diretório .
+git clone                                           //clona repositório remoto no repositório local.
+
+
+
+*** Outros comandos do terminal ***
+
+mkdir nomeDaPasta                                   //cria pasta no local atual.
+touch nomeDoArquivo.extensao                        //cria arquivo na pasta atual com extensao desejada.
+ls                                                  //lista pasta e arquivos na pasta atual
+clear                                               //limpa a interface do terminal.
+cd nomeDaPasta                                      //navega até a próxima pasta.
+cd ..                                               //volta para a pasta anterior a atual.
+
+
+

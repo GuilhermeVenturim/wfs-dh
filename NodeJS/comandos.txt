@@ -1,0 +1,16 @@
+*** Comandos NodeJS já utilizados até aqui: ***
+
+node --version                                 //retorna a versão atual do node instalado.
+npm init                                       //inicia o gerenciador de pacotes na pasta atual.
+npm install package --save                     //instala o modulo requisitado e o salva no "package.json".
+npm update                                     //atualiza as bibliotecas instaladas.
+npm uninstall package                          //remove a devida biblioteca.
+
+
+
+-lista atualizada semanalmente-
+
+
+
+
+
