@@ -1,2 +1,2 @@
 let calcular = import('')
-console.log(calcular(somar(2, 5)))
+console.log(calcular(somar(2,)))
