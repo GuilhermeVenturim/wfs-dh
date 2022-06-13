@@ -1,4 +1,4 @@
-function multiplicar(numA, numB){
+export function multiplicar(numA, numB){
     let resultado = []
     if(numA != 0 && numB != 0){
         return resultado = numA * numB;
