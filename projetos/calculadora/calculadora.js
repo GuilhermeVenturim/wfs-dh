@@ -1,20 +1,21 @@
 import {somar} from './modulos/somar.js';
-import {dividir} from './modulos/dividir';
-import {subtrair} from './modulos/subtrair';
-import {multiplicar} from './modulos/multiplicar';
+import {dividir} from './modulos/dividir.js';
+import {subtrair} from './modulos/subtrair.js';
+import {multiplicar} from './modulos/multiplicar.js';
 
 let somando = somar(2, 7);
 let dividindo = dividir(10, 2);
 let dividindoPorZero = dividir(5, 0);
 let subtraindo = subtrair(10, 5);
 let multiplicando = multiplicar(5, 2);
-let multiplicandoPorZero = (5, 0);
+let multiplicandoPorZero = multiplicar(5, 0);
 
 console.log(somando)
-
-
-
-
+console.log(dividindo)
+console.log(dividindoPorZero)
+console.log(subtraindo)
+console.log(multiplicando)
+console.log(multiplicandoPorZero)
 
 
 
