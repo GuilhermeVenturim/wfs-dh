@@ -1,4 +1,4 @@
-function dividir(numA, numB){
+export function dividir(numA, numB){
     let resultado = []
     if(numA != 0 && numB != 0){
         return resultado = numA / numB;
