@@ -1,4 +1,10 @@
-let catalogo = require('./database/catalogo.json')
+
+
+
+
+import jsonCatalogo from './database/catalogo.json' assert {type: 'json'};
+let catalogoJavaScript = JSON.parse(jsonCatalogo)
+console.log(catalogoJavaScript)
 
 let cinema = 'CineHouse'
 
@@ -29,7 +35,7 @@ function alterarStatusEmCartaz(index){
         //catalogo[index].emCartaz != true
 }
 
-console.log(catalogo.codigo[2])
+//console.log(catalogo.codigo[2])
 //console.log(newFilme)
 //console.log(catalogo, newFilme)
 //console.log(buscarFilme(2))

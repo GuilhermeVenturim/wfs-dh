@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "exercicio1",
   "main": "cinema.js",
+  "type": "module",
   "scripts": {
     "test": "cinema"
   },
