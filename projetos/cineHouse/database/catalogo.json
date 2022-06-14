@@ -1,0 +1,36 @@
+ [ {
+    "catalogo": [{
+    "codigo": 0,
+    "nome": "O senhor dos anéis: A sociedade do anel",
+    "duracao": 3,
+    "atores": "Elijah Wood, Sean Astin, Ian McKellen",
+    "lancamento": 2002,
+    "emCartaz": false
+    
+},
+{
+    "codigo" : 1,
+    "nome": "O senhor dos anéis: As duas torres",
+    "duracao": 3,
+    "atores": "Elijah Wood, Sean Astin, Viggo Mortensen",
+    "lancamento": 2002,
+    "emCartaz" : false
+},
+{
+    "codigo": 2,
+    "nome": "O senhor dos anéis: O retorno do rei",
+    "duracao": 3.2,
+    "atores": "Elijah Wood, Sean Astin, Viggo Mortensen",
+    "lancamento": 2003,
+    "emCartaz": false
+},
+{
+    "codigo": 3,
+    "nome": "Doutor Estranho no Multiverso da Loucura",
+    "duracao": 2,
+    "atores": "Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor",
+    "lancamento": 2022,
+    "emCartaz": true
+}
+ ]}
+]
