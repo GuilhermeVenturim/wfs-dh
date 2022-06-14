@@ -1,4 +1,5 @@
-//Atualização no código em andamento
+//Atualização no código em andamento.
+//Reestrutução das funções em andamento.
 
 
 
