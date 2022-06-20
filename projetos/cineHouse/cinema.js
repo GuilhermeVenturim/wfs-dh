@@ -3,11 +3,11 @@
 
 
 
-import jsonCatalogo from './database/catalogo.json' assert {type: 'json'};
-let catalogoJavaScript = JSON.parse(jsonCatalogo)
+import catalogo from './database/catalogo.json' assert {type: "json"};
+let catalogoJavaScript = catalogo
 console.log(catalogoJavaScript)
 
-let cinema = 'CineHouse'
+//let cinema = 'CineHouse'
 
 function AdicionarFilme(codigo, nome, duracao, atores, lancamento, emCartaz){
         this.codigo     = codigo

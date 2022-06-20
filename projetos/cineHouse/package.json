@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeVenturim/wfs-dh.git#master"
+  },
+  "bugs": {
+    "url": "https://github.com/GuilhermeVenturim/wfs-dh/issues"
+  },
+  "homepage": "https://github.com/GuilhermeVenturim/wfs-dh/tree/master#readme"
 }

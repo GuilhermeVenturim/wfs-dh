@@ -1,5 +1,6 @@
  
- [ {
+  
+    {
     "catalogo": [{
     "codigo": 0,
     "nome": "O senhor dos anéis: A sociedade do anel",
@@ -34,4 +35,4 @@
     "emCartaz": true
 }
  ]}
-]
+
