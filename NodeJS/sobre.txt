@@ -1,4 +1,0 @@
-    Node nos permite executar códigos em JavaScript fora de um navegador.
-    Utilizando o motor v8 do Google Chrome, NodeJS é fundamental para o desenvolvimento com JavaScript.
-    Node nos permite instalar módulos (bibliotecas) para incorporar em nosso projeto.
-    

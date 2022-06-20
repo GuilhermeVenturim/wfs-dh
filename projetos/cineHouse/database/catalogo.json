@@ -28,11 +28,11 @@
 },
 {
     "codigo": 3,
-    "nome": "Doutor Estranho no Multiverso da Loucura",
+    "nome": "Doutor Estranho",
     "duracao": 2,
-    "atores": "Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor",
-    "lancamento": 2022,
-    "emCartaz": true
+    "atores": "Benedict Cumberbatch, Chiwetel Ejiofor, Tilda Swinton",
+    "lancamento": 2016,
+    "emCartaz": false
 }
  ]}
 
