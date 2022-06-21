@@ -1,3 +1,4 @@
+
 let dadosPessoa = {
     nome: 'Guilherme Venturim',
     idade: 31,
@@ -13,3 +14,5 @@ console.log(json);
 //.parse() para transformar dados json em objeto literal JavaScript.
 let newDados = JSON.parse(json);
 console.log(newDados);
+
+//Exercicíos sobre JSON concluídos.
