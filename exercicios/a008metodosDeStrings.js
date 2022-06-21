@@ -19,3 +19,4 @@ console.log(ola.split(' '));//colocando um espaço é possível separar as palav
 //.replace() permite substituir uma parte do texto dentro de uma string.
 console.log(ola.replace('!', '.'));//passando como parametros o valor a ser trocado e o novo valor.
 
+//Exercicíos sobre métodos de strings concluídos.
