@@ -12,21 +12,23 @@ console.log(`Me chamo ${nomeESobrenome}`);
 let estudanteDeJavaScript = true;
 console.log(`Atualmente estudo programação Web com JavaScript? ${estudanteDeJavaScript}`);
 
-//Objeto
-let outrosDadosPessoais = {
-    solteiro: true,
-    altura: 1.80,
-    email: 'guilhermeventurim@outlook.com'
+//Objeto literal.
+let outrosDadosPessoais = { 
+    solteiro: true, //booleano
+    altura: 1.80, //numérico decinal
+    email: 'guilhermeventurim@outlook.com'  //string
 };
 console.log(outrosDadosPessoais);
 
 //Array.
 let listaDeCompras = ['Café', 'Leite', 'Queijo', 'Manteiga', 'Suco de Uva'];
-console.log(listaDeCompras[0])
+console.log(listaDeCompras[0]);
 
 //Tipos especiais de Dados:
 
 //NaN - Not A Number indica que o valor não pode ser passado como um número.
+let naoNumerico = NaN;
+console.log(naoNumerico);
 let naoENumero = '1911' / 2;
 console.log(naoENumero);
 

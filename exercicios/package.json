@@ -1,0 +1,12 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "exercicios js",
+  "main": "a000variaveis.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilherme Venturim",
+  "license": "ISC"
+}
