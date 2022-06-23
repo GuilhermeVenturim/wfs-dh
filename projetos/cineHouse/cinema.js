@@ -12,6 +12,7 @@ console.log(catalogo)
 
 
 
+
 //2. listarFilmesEmCartaz - criar
 //A função deve percorrer toda a lista de filmes armazenada no catálogo
 //utilizando o loop for e retornar os filmes disponíveis em cartaz - as informações
