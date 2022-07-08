@@ -6,6 +6,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res)=>res.send('Olá mundo!'));//criado uma rota/spooler.
+//.get recebe como parametros uma string com url da rota e um callback (req, res)
 
 //Criando servidor usando método listen, recebe o número da porta e um callback como parametros.
 app.listen(3000, ()=>console.log('Estamos usando a porta 3000!')); 
