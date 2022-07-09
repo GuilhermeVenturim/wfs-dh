@@ -2,6 +2,6 @@
 
 # Desenvolvimento Web Full Stack
 
+## Exercícios e projetos com HTML, CSS e JAVASCRIPT.
 
-e-cine
 #### By Guilherme Venturim.
