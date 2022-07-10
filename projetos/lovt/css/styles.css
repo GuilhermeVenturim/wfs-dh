@@ -77,14 +77,15 @@ body{
 
 .item-secundario-img-new, .item-secundario-img-sale{
     justify-content: space-around;
-    width: 600px;
-    height: 530px;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 30vh;
     background-color: #EEEEEE;
     margin: 3.3%;
 }
 
 #img-new, #img-sale{
-    width: 600px;
+    width: 40vw;
     
 }
 
