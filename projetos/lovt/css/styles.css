@@ -57,14 +57,14 @@ body{
     margin-left: 3.2vw;
     display: flex;
     width: 91.5vw;
-    min-width: auto;
     height: 85vh;
+    
 }
 
 #img-main{
-    min-height: auto;
-    width: 91.5vw;
-    height: 80vh;
+
+    height: 85vh;
+    width: 100%;
 }
 
 .container-secundario{
@@ -185,3 +185,23 @@ body{
     margin-right: 4.5%;
 }
 
+@media (max-width: 1301px){
+    body{
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px){
+    *{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    p{
+        font-size: 1rem;
+        
+    }
+    #img-main{
+        width: 100%;
+        max-width: 360px;
+    }
+}
